@@ -5,3 +5,4 @@ if age >= 18:
         print("You can buy some beer!")
 else:
         print("You can not buy a beer!")
+         
