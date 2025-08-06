@@ -1,0 +1,17 @@
+# We have to do many different process on our list so we have methods to do that
+import os
+os.system("cls")
+
+print(" ------------------------ Methods ------------------------ ")
+
+original = [1,2,3,4,5]
+print("Original: ", original)
+original.append(6)
+print("\nAppend at the end: ", original)
+
+letter = ["a","b","c","d","e"]
+print("\nLetter original: ", letter, "Length: ", len(letter))
+letter.insert(2,"X")
+print("Insert: ", letter, "Length: ", len(letter))
+
+
