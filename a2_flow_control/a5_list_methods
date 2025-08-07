@@ -1,10 +1,14 @@
 # We have to do many different process on our list so we have methods to do that
 import os
+<<<<<<< HEAD
 
+=======
+>>>>>>> b0e4d0bf281515fa0125aa90c31293d4643d318a
 os.system("cls")
 
 print(" ------------------------ Methods ------------------------ ")
 
+<<<<<<< HEAD
 print(
     "We've got many different methods as in Java so here as in all the Python environment is more clear and smaller than others."
 )
@@ -96,4 +100,16 @@ print(
 week = ["Spring", "Fall", "Summer", "Winter","Fall","Winter"]
 print("How many times Fall appears in the list?", week.count("Fall"))
 print("Is there any Winter in the list?", "Winter" in week)
+=======
+original = [1,2,3,4,5]
+print("Original: ", original)
+original.append(6)
+print("\nAppend at the end: ", original)
+
+letter = ["a","b","c","d","e"]
+print("\nLetter original: ", letter, "Length: ", len(letter))
+letter.insert(2,"X")
+print("Insert: ", letter, "Length: ", len(letter))
+
+>>>>>>> b0e4d0bf281515fa0125aa90c31293d4643d318a
 
