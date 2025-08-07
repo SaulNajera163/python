@@ -71,3 +71,23 @@ print(
 list_int_copy_reverse = list_int_copy[::-1]
 print(list_int_copy)
 print(list_int_copy_reverse)
+
+print("---------------------------Modification and Added---------------------------")
+
+# Modification value
+print(list_int)
+list_int[0] = 20
+print(list_int)
+
+# Added
+
+list_int = [1, 2, 3]
+print(list_int)
+
+# It's some weird but here, python concat the lists.
+list_int += [10, 20, 30]
+print(list_int)
+
+# length method
+print("List size", len(list_int))
+
