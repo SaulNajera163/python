@@ -7,5 +7,14 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
-  "cSpell.enabled": true
+  "cSpell.enabled": true,
+  "cSpell.words": [
+    "sumar"
+  ],
+  
+  // === CONFIGURACIONES PARA HOVER ===
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 300,
+  "python.analysis.autoImportCompletions": true,
+  "python.languageServer": "Pylance"
 }
