@@ -1,6 +1,4 @@
 #
-from ast import arg
-from multiprocessing import Value
 import os
 
 os.system("cls")
