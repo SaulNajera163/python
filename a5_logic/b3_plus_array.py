@@ -2,16 +2,18 @@ import os
 
 os.system("cls")
 
+"""We need to get a list of numbers and this is as five or six position but the important thing here is, we'll give it a number and we tried to find the firsts two position
+than plus them, give us the number result"""
 
-def first_goal(nums: list[int], goal: int) -> None | list[int]:
-    for i in range(len(nums)):
-        for j in range(i + 1, len(nums)):
-            if nums[i] + nums[j] == goal:
-                return [i, j]  # Return indices
-    return None
+numbers = [2, 9, 3, 1, 1, 4, 2]
+goal = 5
 
 
-nums = [4, 5, 6, 2]
-goal = 8
+def list_and_goal(list_numbers: list[int], goal: int) -> None | list[int]:
+    for i in range(len(list_numbers) - 1):
+        for j in range(i + 1, len(list_numbers)):
+            if i + j == goal:
+                return [i,j]
 
-print(first_goal(nums, goal))
+
+print()
